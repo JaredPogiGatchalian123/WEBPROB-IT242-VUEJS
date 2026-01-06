@@ -1,17 +1,17 @@
-    #app {
-      display: inline-block;
-      padding: 10px;
-      font-size: x-large;
-      background-color: lightgreen;
-    }
-  
-    * {
+#app {
+  display: inline-block;
+  padding: 10px;
+  font-size: x-large;
+  background-color: lightgreen;
+}
+
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
 
 .header {
@@ -25,30 +25,31 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create four equal columns */
 .column {
-  flex: 25%;
+  flex: 0 0 25%;      /* FIXED */
   max-width: 25%;
   padding: 0 4px;
 }
 
 .column img {
+  width: 100%;       /* FIXED: prevents overflow */
   margin-top: 8px;
   vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Tablet layout (2 columns) */
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
+    flex: 0 0 50%;    /* FIXED */
     max-width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Mobile layout (1 column) */
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
+    flex: 0 0 100%;   /* FIXED */
     max-width: 100%;
   }
 }
