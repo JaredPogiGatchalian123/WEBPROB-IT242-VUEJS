@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My first Vue page</title>
-  <link rel="stylesheet" href="css/image.css">
+    <meta charset="UTF-8">
+    <title>My first Vue page</title>
+    <link rel="stylesheet" href="css/image.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="grid-container">
+        <div class="header"><h1>Jared's Personal Profile</h1></div>
 
-<h1>Example 'v-for' to create images</h1>
-<p>The 'v-for' directive is used to create images based on the 'manyFoods' array in the Vue instance.</p>
+        <div class="menu">
+            <ul>
+                <li>Dominik Pogi</li>
+                <li>Dominik Pogi</li>
+                <li>Dominik Pogi</li>
+                <li>Dominik Pogi</li>
+            </ul>
+        </div>
 
-<div id="app">
-  <div>
-    <img v-for="x in manyFoods" :src="x" :key="x">
-  </div>
-</div>
+        <div class="content">
+            <h1>About Me:</h1>
+            <h2>Jared Christian M. Gatchalian</h2>
+            <p>To become a very rich man</p>
+            <p>I like to play video games, watch movies, and listen to music</p>
+            <p>I am a Full Stack Developer in ML</p>
+        </div>  
 
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/image.js"></script>
+        <div class="facts">
+            <h2>My Education</h2>
+            <ul>
+                <li>Currently a 2nd Year BSIT Student in Asia Pacific College</li>
+                <li>Graduated Senior High School in Asia Pacific College</li>
+            </ul>
+        </div>
 
+        <div class="footer"><p>Made by Jared Pogi12345 :D</p></div>
+    </div>
+
+    <br>
+    <h1>The things that I like the very best</h1>
+
+    <div id="app">
+        {{ message }}
+    </div>
+
+    <h1>Example 'v-for' to create images</h1>
+    <p>The 'v-for' directive is used to create images based on the 'manyFoods' array.</p>
+
+    <div id="app2">
+        <div>
+            <img v-for="x in manyFoods" :src="x" :key="x">
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/image.js"></script>
+    <script src="js/vue.js"></script>
 </body>
 </html>
