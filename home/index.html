@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>My first Vue page</title>
-     <link rel="stylesheet" href="css/image.css">
-
+  <link rel="stylesheet" href="css/image.css">
+</head>
 <body>
 
 <h1>Example 'v-for' to create images</h1>
 <p>The 'v-for' directive is used to create images based on the 'manyFoods' array in the Vue instance.</p>
 
 <div id="app">
-
   <div>
-    <img v-for="x in manyFoods" v-bind:src="x">
+    <img v-for="x in manyFoods" :src="x" :key="x">
   </div>
-
 </div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="js/image.js"></script>
-
-
+<script src="js/image.js"></script>
 
 </body>
 </html>
