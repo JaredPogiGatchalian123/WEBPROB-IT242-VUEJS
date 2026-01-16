@@ -1,5 +1,5 @@
 <template>
-  <div  class="Banana">
+  <div  class="durian">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -9,8 +9,8 @@
 export default {
   data() {
     return {
-      name: 'Banana',
-      message: 'I love BANANA!'
+      name: 'Durian',
+      message: 'I love Durian!'
     }
   }
 };
