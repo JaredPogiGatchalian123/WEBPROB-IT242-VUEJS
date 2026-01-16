@@ -80,4 +80,6 @@
 
 </body>
 </template>
+
+<script></script>
 <style src="./css/personalprofile.css"></style>
