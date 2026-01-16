@@ -1,85 +1,81 @@
 <template>
-    <body>
-
-  <div class="grid-container">
-
-<div class="header"><h1>Jared's Personal Profile</h1></div>
-
+<div class="main-wrapper">
+<div class="grid-container">
+<div class="header">
+<h1>Jared's Personal Profile</h1>
+</div>
 <div class="menu">
-  <ul>
-    <li>Dominik Pogi</li>
-    <li>Dominik Pogi</li>
-    <li>Dominik Pogi</li>
-    <li>Dominik Pogi</li>
-  </ul>
+<ul>
+<li>Dominik Pogi</li>
+<li>Dominik Pogi</li>
+<li>Dominik Pogi</li>
+<li>Dominik Pogi</li>
+</ul>
 </div>
-
 <div class="content">
-  <h1>About Me:</h1>
-  <h2>Jared Christian M. Gatchalian</h2>
-  <p>To become a very rich man</p>
-  <p>I like to play video games, I like to watch movies, and I also like to listen to music</p>
-  <p>I am a Full Stack Developer in ML</p>
-</div>  
-
-<div class="facts">
-  <h2>My Education</h2>
-  <ul>
-    <li>Currently a 2nd Year BSIT Student in Asia Pacific College</li>
-    <li>Graduated Senior High School in Asia Pacific College</li>
-  </ul>
+<h1>About Me:</h1>
+<h2>Jared Christian M. Gatchalian</h2>
+<p>To become a very rich man</p>
+<p>I like to play video games, I like to watch movies, and I also like to listen to music</p>
+<p>I am a Full Stack Developer in ML</p>
 </div>
-
-<div class="footer"><p>Made by Jared Pogi12345 :D</p></div>
-  
+<div class="facts">
+<h2>My Education</h2>
+<ul>
+<li>Currently a 2nd Year BSIT Student in Asia Pacific College</li>
+<li>Graduated Senior High School in Asia Pacific College</li>
+</ul>
+</div>
+<div class="footer">
+<p>Made by Jared Pogi12345 :D</p>
+</div>
 </div>
 <br>
-
+<div class="extra-info">
 <h1>The things that I like the very best</h1>
-  <p>Resize the browser window to see the responsive effect hehez mwahhh</p>
+<p>Resize the browser window to see the responsive effect hehez mwahhh</p>
 </div>
-
-<div class="container"> 
-  <div class="column">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-  </div>
-  
-  <div class="column">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-  </div> 
-   
-  <div class="column">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-  </div>
-  
-  <div class="column">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
-  </div>
-
-</body>
+<div class="container">
+<div class="column">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+</div>
+<div class="column">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+</div>
+<div class="column">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+</div>
+<div class="column">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+<img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain" style="width:100%">
+</div>
+</div>
+</div>
 </template>
-
-<script></script>
+<script>
+export default {
+ name: 'PersonalProfile'
+}
+</script>
 <style src="./css/personalprofile.css"></style>
