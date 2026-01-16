@@ -1,237 +1,83 @@
 <template>
-<body>
+    <body>
 
-  <nav class="topNav">
-    <div class="navContainer layoutWidth">
-      <a href="#home" class="logo">JC</a>
-      <div class="menuToggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-      <ul class="navLinks">
-        <li><a href="#home" class="navLink active" data-section="home">Home</a></li>
-        <li><a href="#about" class="navLink" data-section="about">About</a></li>
-        <li><a href="#games" class="navLink" data-section="games">Games</a></li>
-        <li><a href="#skills" class="navLink" data-section="skills">Skills</a></li>
-        <li><a href="#gallery" class="navLink" data-section="gallery">Gallery</a></li>
-        <li><a href="#socials" class="navLink" data-section="socials">Socials</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div class="grid-container">
 
-  <div class="pageGlow"></div>
+<div class="header"><h1>Jared's Personal Profile</h1></div>
 
-  <section class="landingSection layoutWidth" id="home">  
-    <header class="landingContent">
-      <span class="subHeading">Welcome to my Personal Web!</span>
-      <h1>Hi, my name is</h1>
-      <h2 class="displayName">Jared Christian</h2>
-      <p class="summaryText">
-        This is my personal space on the internet, a place where I share parts of my life including my education, 
-        the people who matter to me, the games I enjoy, and moments worth remembering.
-      </p>
-      <div class="ctaButtons">
-        <button id="scrollBtn" class="primaryButton">Learn More About Me</button>
-        <button id="connectBtn" class="secondaryButton">Connect With Me</button>
-      </div>
-    </header>
+<div class="menu">
+  <ul>
+    <li>Dominik Pogi</li>
+    <li>Dominik Pogi</li>
+    <li>Dominik Pogi</li>
+    <li>Dominik Pogi</li>
+  </ul>
+</div>
 
-    <figure class="myCharacter">
-      <img src="https://lh3.googleusercontent.com/u/0/d/1A4iLRBd37WbiwpTzRr1_K8ywNru9PR8p" alt="Jared Character Transparent" class="characterImage">
-    </figure>
-  </section>
+<div class="content">
+  <h1>About Me:</h1>
+  <h2>Jared Christian M. Gatchalian</h2>
+  <p>To become a very rich man</p>
+  <p>I like to play video games, I like to watch movies, and I also like to listen to music</p>
+  <p>I am a Full Stack Developer in ML</p>
+</div>  
 
-  <section class="aboutSection layoutWidth" id="about">
-    <h3 class="sectionHeading">About Me</h3>
-    <div class="aboutGrid">
-      <article class="infoCard">
-        <div class="cardHeader"><span class="cardIcon">🎓</span><h4>Education</h4></div>
-        <p>
-          <strong>Bachelor of Science in Information Technology (Currently 2nd Year)</strong><br>
-          Asia Pacific College<br>
-          <strong>Expected Graduation:</strong> 2028 (hopefully)
-      </article>
+<div class="facts">
+  <h2>My Education</h2>
+  <ul>
+    <li>Currently a 2nd Year BSIT Student in Asia Pacific College</li>
+    <li>Graduated Senior High School in Asia Pacific College</li>
+  </ul>
+</div>
 
-      <article class="infoCard">
-        <div class="cardHeader"><span class="cardIcon">💡</span><h4>Fun Fact</h4></div>
-        <p>My favorite color is red and black. I’m also a huge animal lover! I have 4 dogs and 3 cats at home, and they bring a lot of joy into our household.</p>
-      </article>
+<div class="footer"><p>Made by Jared Pogi12345 :D</p></div>
+  
+</div>
+<br>
 
-      <article class="infoCard">
-        <div class="cardHeader"><span class="cardIcon">🎨</span><h4>Hobbies</h4></div>
-        <p>I enjoy playing video games, listening to music, and watching movies. I also scroll through TikTok and recently started working out to stay active and become healthier.</p>
-      </article>
+<h1>The things that I like the very best</h1>
+  <p>Resize the browser window to see the responsive effect hehez mwahhh</p>
+</div>
 
-      <article class="infoCard">
-        <div class="cardHeader"><span class="cardIcon">🚀</span><h4>Dream</h4></div>
-        <p>My dream is to become a successful IT professional. I want financial success and a comfortable, happy life :D</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="gamesSection layoutWidth" id="games">
-    <h3 class="sectionHeading">Games I Play</h3>
-    <div class="interestsWrapper">
-      <div class="interestCard">
-        <img src="assets/Valorant.jpg" alt="Valorant" class="gameIcon">
-        <h4>Valorant</h4>
-      </div>
-      <div class="interestCard">
-        <img src="assets/Minecraft.webp" alt="Minecraft" class="gameIcon">
-        <h4>Minecraft</h4>
-      </div>
-      <div class="interestCard">
-        <img src="assets/Wildrift.jpg" alt="Wildrift" class="gameIcon">
-        <h4>Wildrift</h4>
-      </div>
-      <div class="interestCard">
-        <img src="assets/Mobile Legends.jpg" alt="MLBB" class="gameIcon">
-        <h4>Mobile Legends</h4>
-      </div>
-      <div class="interestCard">
-        <img src="assets/coc.jpg" alt="CoC" class="gameIcon">
-        <h4>Clash of Clans</h4>
-      </div>
-      <div class="interestCard">
-        <img src="assets/Roblox.jpg" alt="Roblox" class="gameIcon">
-        <h4>Roblox</h4>
-      </div>
-      <div class="interestCard">
-        <img src="assets/hok logo.webp" alt="HOK" class="gameIcon">
-        <h4>Honor of Kings</h4>
-      </div>
-      <div class="interestCard">
-        <img src="assets/gta.png" alt="GTA V" class="gameIcon">
-        <h4>GTA V</h4>
-      </div>
-    </div>
-  </section>
-
-  <section class="skillsSection layoutWidth" id="skills">
-    <h3 class="sectionHeading">My Tech Skills</h3>
-    <div class="skillsGrid">
-      <div class="skillCard">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skillIcon">
-        <h4>HTML</h4>
-        <p class="skillDesc">Proficient in structuring web content using modern semantic standards.</p>
-      </div>
-      <div class="skillCard">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skillIcon">
-        <h4>CSS</h4>
-        <p class="skillDesc">Experienced in creating responsive layouts and custom styling.</p>
-      </div>
-      <div class="skillCard">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skillIcon">
-        <h4>PYTHON</h4>
-        <p class="skillDesc">Background in writing logic, automation, and core programming concepts.</p>
-      </div>
-      <div class="skillCard">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="skillIcon">
-        <h4>Flutter</h4>
-        <p class="skillDesc">Hands-on experience in cross-platform mobile app development.</p>
-      </div>
-      <div class="skillCard">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="skillIcon">
-        <h4>MYSQL</h4>
-        <p class="skillDesc">Knowledgeable in database management and relational data design.</p>
-      </div>
-      <div class="skillCard">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ554zVuSKGygz1sPpFJalHnK_SVHUiFNwqig&s" alt="OutSystems" class="skillIcon">
-        <h4>OutSystems</h4>
-        <p class="skillDesc">Skilled in low-code development for fast enterprise solutions.</p>
-      </div>
-      <div class="skillCard">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_PqAUQnugL3R3G9jbNjSeormEJwpJfZtOw&s" alt="PowerApps" class="skillIcon">
-        <h4>Microsoft PowerApps</h4>
-        <p class="skillDesc">Experience utilizing Microsoft’s low-code platform for business apps.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="gallerySection layoutWidth" id="gallery">
-    <h3 class="sectionHeading">My Gallery</h3>
-    <div class="galleryTabs">
-      <button class="tabBtn active" data-tab="family">Family</button>
-      <button class="tabBtn" data-tab="friends">Friends</button>
-      <button class="tabBtn" data-tab="pets">Pets</button>
-    </div>
-
-    <div class="galleryWrapper">
-      <div class="galleryContent active" id="family">
-        <div class="photoGrid">
-          <div class="photoCard"><img src="assets/Fam 1.jpg" alt="Family 1"></div>
-          <div class="photoCard"><img src="assets/Fam 2.jpg" alt="Family 2"></div>
-          <div class="photoCard"><img src="assets/Fam 3.jpg" alt="Family 3"></div>
-          <div class="photoCard"><img src="assets/Fam 4.jpg" alt="Family 4"></div>
-          <div class="photoCard"><img src="assets/Fam 5.jpg" alt="Family 5"></div>
-        </div>
-      </div>
-      <div class="galleryContent" id="friends">
-        <div class="photoGrid">
-          <div class="photoCard"><img src="assets/Friends 1.jpg" alt="Friends 1"></div>
-          <div class="photoCard"><img src="assets/Friends 2.jpg" alt="Friends 2"></div>
-           <div class="photoCard"><img src="assets/Friends 3.jpg" alt="Friends 3"></div>
-            <div class="photoCard"><img src="assets/Friends 4.jpg" alt="Friends 4"></div>
-             <div class="photoCard"><img src="assets/Friends 5.jpg" alt="Friends 5"></div>
-        </div>
-      </div>
-      <div class="galleryContent" id="pets">
-        <div class="photoGrid">
-          <div class="photoCard"><img src="assets/Pet 1.jpg" alt="Pets 1"></div>
-          <div class="photoCard"><img src="assets/Pet 2.jpg" alt="Pets 2"></div>
-          <div class="photoCard"><img src="assets/Pet 3.jpg" alt="Pets 3"></div>
-          <div class="photoCard"><img src="assets/Pet 4.jpg" alt="Pets 4"></div>
-          <div class="photoCard"><img src="assets/Pet 5.jpg" alt="Pets 5"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div id="lightbox" class="lightbox">
-    <span class="closeBtn" id="closeLightbox">&times;</span>
-    <img class="lightboxImg" id="lightboxImg" src="" alt="Enlarged moment">
+<div class="container"> 
+  <div class="column">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
   </div>
-
-  <section class="socialsSection layoutWidth" id="socials">
-    <h3 class="sectionHeading">Connect With Me!</h3>
-    <div class="socialsGrid">
-      <a href="https://discord.com/users/541224688387358741" class="socialCard">
-        <img src="https://cdn.simpleicons.org/discord/5865F2" alt="Discord" class="socialIcon">
-        <h4>Discord</h4>
-        <p>Let's chat and play</p>
-      </a>
-      <a href="https://www.facebook.com/profile.php?id=61578265403283" class="socialCard">
-        <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook" class="socialIcon">
-        <h4>Facebook</h4>
-        <p>Connect with me</p>
-      </a>
-      <a href="https://www.instagram.com/jaredchristian_10/" class="socialCard">
-        <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram" class="socialIcon">
-        <h4>Instagram</h4>
-        <p>Daily life moments</p>
-      </a>
-      <a href="https://www.linkedin.com/in/jared-christian-gatchalian-489b272a5/" class="socialCard">
-        <img src="https://cdn-icons-png.freepik.com/512/2496/2496097.png" alt="LinkedIn" class="socialIcon">
-        <h4>LinkedIn</h4>
-        <p>Professional network</p>
-      </a>
-      <a href="https://github.com/JaredPogiGatchalian123" class="socialCard">
-        <img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" class="socialIcon">
-        <h4>GitHub</h4>
-        <p>My code projects</p>
-      </a>
-    </div>
-  </section>
-
-  <footer class="miniFooter">
-    <div class="layoutWidth">
-      <p>© Created by Jared Christian Gatchalian.</p>
-    </div>
-  </footer>
+  
+  <div class="column">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.KpRPWqy3d4BwI3xbagZoBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" style="width:100%">
+  </div>
 
 </body>
 </template>
-
-<style src="./css/pesonalprofile.css"></style>
-
+<style src="./css/personalprofile.css"></style>
