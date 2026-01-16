@@ -1,0 +1,382 @@
+<template>
+<body>
+
+  <nav class="topNav">
+    <div class="navContainer layoutWidth">
+      <a href="#home" class="logo">JC</a>
+      <div class="menuToggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navLinks">
+        <li><a href="#home" class="navLink active" data-section="home">Home</a></li>
+        <li><a href="#about" class="navLink" data-section="about">About</a></li>
+        <li><a href="#games" class="navLink" data-section="games">Games</a></li>
+        <li><a href="#skills" class="navLink" data-section="skills">Skills</a></li>
+        <li><a href="#gallery" class="navLink" data-section="gallery">Gallery</a></li>
+        <li><a href="#socials" class="navLink" data-section="socials">Socials</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="pageGlow"></div>
+
+  <section class="landingSection layoutWidth" id="home">  
+    <header class="landingContent">
+      <span class="subHeading">Welcome to my Personal Web!</span>
+      <h1>Hi, my name is</h1>
+      <h2 class="displayName">Jared Christian</h2>
+      <p class="summaryText">
+        This is my personal space on the internet, a place where I share parts of my life including my education, 
+        the people who matter to me, the games I enjoy, and moments worth remembering.
+      </p>
+      <div class="ctaButtons">
+        <button id="scrollBtn" class="primaryButton">Learn More About Me</button>
+        <button id="connectBtn" class="secondaryButton">Connect With Me</button>
+      </div>
+    </header>
+
+    <figure class="myCharacter">
+      <img src="https://lh3.googleusercontent.com/u/0/d/1A4iLRBd37WbiwpTzRr1_K8ywNru9PR8p" alt="Jared Character Transparent" class="characterImage">
+    </figure>
+  </section>
+
+  <section class="aboutSection layoutWidth" id="about">
+    <h3 class="sectionHeading">About Me</h3>
+    <div class="aboutGrid">
+      <article class="infoCard">
+        <div class="cardHeader"><span class="cardIcon">🎓</span><h4>Education</h4></div>
+        <p>
+          <strong>Bachelor of Science in Information Technology (Currently 2nd Year)</strong><br>
+          Asia Pacific College<br>
+          <strong>Expected Graduation:</strong> 2028 (hopefully)
+      </article>
+
+      <article class="infoCard">
+        <div class="cardHeader"><span class="cardIcon">💡</span><h4>Fun Fact</h4></div>
+        <p>My favorite color is red and black. I’m also a huge animal lover! I have 4 dogs and 3 cats at home, and they bring a lot of joy into our household.</p>
+      </article>
+
+      <article class="infoCard">
+        <div class="cardHeader"><span class="cardIcon">🎨</span><h4>Hobbies</h4></div>
+        <p>I enjoy playing video games, listening to music, and watching movies. I also scroll through TikTok and recently started working out to stay active and become healthier.</p>
+      </article>
+
+      <article class="infoCard">
+        <div class="cardHeader"><span class="cardIcon">🚀</span><h4>Dream</h4></div>
+        <p>My dream is to become a successful IT professional. I want financial success and a comfortable, happy life :D</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="gamesSection layoutWidth" id="games">
+    <h3 class="sectionHeading">Games I Play</h3>
+    <div class="interestsWrapper">
+      <div class="interestCard">
+        <img src="assets/Valorant.jpg" alt="Valorant" class="gameIcon">
+        <h4>Valorant</h4>
+      </div>
+      <div class="interestCard">
+        <img src="assets/Minecraft.webp" alt="Minecraft" class="gameIcon">
+        <h4>Minecraft</h4>
+      </div>
+      <div class="interestCard">
+        <img src="assets/Wildrift.jpg" alt="Wildrift" class="gameIcon">
+        <h4>Wildrift</h4>
+      </div>
+      <div class="interestCard">
+        <img src="assets/Mobile Legends.jpg" alt="MLBB" class="gameIcon">
+        <h4>Mobile Legends</h4>
+      </div>
+      <div class="interestCard">
+        <img src="assets/coc.jpg" alt="CoC" class="gameIcon">
+        <h4>Clash of Clans</h4>
+      </div>
+      <div class="interestCard">
+        <img src="assets/Roblox.jpg" alt="Roblox" class="gameIcon">
+        <h4>Roblox</h4>
+      </div>
+      <div class="interestCard">
+        <img src="assets/hok logo.webp" alt="HOK" class="gameIcon">
+        <h4>Honor of Kings</h4>
+      </div>
+      <div class="interestCard">
+        <img src="assets/gta.png" alt="GTA V" class="gameIcon">
+        <h4>GTA V</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="skillsSection layoutWidth" id="skills">
+    <h3 class="sectionHeading">My Tech Skills</h3>
+    <div class="skillsGrid">
+      <div class="skillCard">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skillIcon">
+        <h4>HTML</h4>
+        <p class="skillDesc">Proficient in structuring web content using modern semantic standards.</p>
+      </div>
+      <div class="skillCard">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skillIcon">
+        <h4>CSS</h4>
+        <p class="skillDesc">Experienced in creating responsive layouts and custom styling.</p>
+      </div>
+      <div class="skillCard">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skillIcon">
+        <h4>PYTHON</h4>
+        <p class="skillDesc">Background in writing logic, automation, and core programming concepts.</p>
+      </div>
+      <div class="skillCard">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="skillIcon">
+        <h4>Flutter</h4>
+        <p class="skillDesc">Hands-on experience in cross-platform mobile app development.</p>
+      </div>
+      <div class="skillCard">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="skillIcon">
+        <h4>MYSQL</h4>
+        <p class="skillDesc">Knowledgeable in database management and relational data design.</p>
+      </div>
+      <div class="skillCard">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ554zVuSKGygz1sPpFJalHnK_SVHUiFNwqig&s" alt="OutSystems" class="skillIcon">
+        <h4>OutSystems</h4>
+        <p class="skillDesc">Skilled in low-code development for fast enterprise solutions.</p>
+      </div>
+      <div class="skillCard">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_PqAUQnugL3R3G9jbNjSeormEJwpJfZtOw&s" alt="PowerApps" class="skillIcon">
+        <h4>Microsoft PowerApps</h4>
+        <p class="skillDesc">Experience utilizing Microsoft’s low-code platform for business apps.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallerySection layoutWidth" id="gallery">
+    <h3 class="sectionHeading">My Gallery</h3>
+    <div class="galleryTabs">
+      <button class="tabBtn active" data-tab="family">Family</button>
+      <button class="tabBtn" data-tab="friends">Friends</button>
+      <button class="tabBtn" data-tab="pets">Pets</button>
+    </div>
+
+    <div class="galleryWrapper">
+      <div class="galleryContent active" id="family">
+        <div class="photoGrid">
+          <div class="photoCard"><img src="assets/Fam 1.jpg" alt="Family 1"></div>
+          <div class="photoCard"><img src="assets/Fam 2.jpg" alt="Family 2"></div>
+          <div class="photoCard"><img src="assets/Fam 3.jpg" alt="Family 3"></div>
+          <div class="photoCard"><img src="assets/Fam 4.jpg" alt="Family 4"></div>
+          <div class="photoCard"><img src="assets/Fam 5.jpg" alt="Family 5"></div>
+        </div>
+      </div>
+      <div class="galleryContent" id="friends">
+        <div class="photoGrid">
+          <div class="photoCard"><img src="assets/Friends 1.jpg" alt="Friends 1"></div>
+          <div class="photoCard"><img src="assets/Friends 2.jpg" alt="Friends 2"></div>
+           <div class="photoCard"><img src="assets/Friends 3.jpg" alt="Friends 3"></div>
+            <div class="photoCard"><img src="assets/Friends 4.jpg" alt="Friends 4"></div>
+             <div class="photoCard"><img src="assets/Friends 5.jpg" alt="Friends 5"></div>
+        </div>
+      </div>
+      <div class="galleryContent" id="pets">
+        <div class="photoGrid">
+          <div class="photoCard"><img src="assets/Pet 1.jpg" alt="Pets 1"></div>
+          <div class="photoCard"><img src="assets/Pet 2.jpg" alt="Pets 2"></div>
+          <div class="photoCard"><img src="assets/Pet 3.jpg" alt="Pets 3"></div>
+          <div class="photoCard"><img src="assets/Pet 4.jpg" alt="Pets 4"></div>
+          <div class="photoCard"><img src="assets/Pet 5.jpg" alt="Pets 5"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="lightbox" class="lightbox">
+    <span class="closeBtn" id="closeLightbox">&times;</span>
+    <img class="lightboxImg" id="lightboxImg" src="" alt="Enlarged moment">
+  </div>
+
+  <section class="socialsSection layoutWidth" id="socials">
+    <h3 class="sectionHeading">Connect With Me!</h3>
+    <div class="socialsGrid">
+      <a href="https://discord.com/users/541224688387358741" class="socialCard">
+        <img src="https://cdn.simpleicons.org/discord/5865F2" alt="Discord" class="socialIcon">
+        <h4>Discord</h4>
+        <p>Let's chat and play</p>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61578265403283" class="socialCard">
+        <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook" class="socialIcon">
+        <h4>Facebook</h4>
+        <p>Connect with me</p>
+      </a>
+      <a href="https://www.instagram.com/jaredchristian_10/" class="socialCard">
+        <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram" class="socialIcon">
+        <h4>Instagram</h4>
+        <p>Daily life moments</p>
+      </a>
+      <a href="https://www.linkedin.com/in/jared-christian-gatchalian-489b272a5/" class="socialCard">
+        <img src="https://cdn-icons-png.freepik.com/512/2496/2496097.png" alt="LinkedIn" class="socialIcon">
+        <h4>LinkedIn</h4>
+        <p>Professional network</p>
+      </a>
+      <a href="https://github.com/JaredPogiGatchalian123" class="socialCard">
+        <img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" class="socialIcon">
+        <h4>GitHub</h4>
+        <p>My code projects</p>
+      </a>
+    </div>
+  </section>
+
+  <footer class="miniFooter">
+    <div class="layoutWidth">
+      <p>© Created by Jared Christian Gatchalian.</p>
+    </div>
+  </footer>
+
+</body>
+</template>
+
+<style src="./css/pesonalprofile.css"></style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const menuToggle = document.querySelector("#mobile-menu");
+  const navLinksList = document.querySelector(".navLinks");
+  const navLinks = document.querySelectorAll(".navLink");
+  const sections = document.querySelectorAll("section");
+  const nav = document.querySelector(".topNav");
+
+  // 1. Mobile Menu Toggle
+  menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("is-active");
+    navLinksList.classList.toggle("active");
+  });
+
+  // 2. Button Smooth Scrolls
+  document.getElementById("scrollBtn")?.addEventListener("click", () => {
+    document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.getElementById("connectBtn")?.addEventListener("click", () => {
+    document.getElementById("socials").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // 3. Scroll Spy & Nav Background Logic
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 50) {
+      nav.classList.add("scrolled");
+    } else {
+      nav.classList.remove("scrolled");
+    }
+
+    let current = "home";
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      if (pageYOffset >= sectionTop - 150) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href").includes(current)) {
+        link.classList.add("active");
+      }
+    });
+  });
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      menuToggle.classList.remove("is-active");
+      navLinksList.classList.remove("active");
+    });
+  });
+
+  // 4. GALLERY TAB LOGIC
+  const tabBtns = document.querySelectorAll(".tabBtn");
+  const galleryContents = document.querySelectorAll(".galleryContent");
+
+  tabBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      tabBtns.forEach((b) => b.classList.remove("active"));
+      galleryContents.forEach((c) => c.classList.remove("active"));
+      btn.classList.add("active");
+      const target = btn.getAttribute("data-tab");
+      document.getElementById(target).classList.add("active");
+    });
+  });
+
+  // 5. LIGHTBOX MODAL LOGIC
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightboxImg");
+  const closeBtn = document.getElementById("closeLightbox");
+  
+  let currentImgIndex = 0;
+  let activeTabPhotos = [];
+
+  // Function to setup photo listeners (called whenever you switch tabs or load)
+  function updatePhotoListeners() {
+    const photoCards = document.querySelectorAll(".photoCard");
+    photoCards.forEach((card) => {
+      // Remove old listener to prevent double triggers
+      card.onclick = null; 
+      card.onclick = () => {
+        const img = card.querySelector("img");
+        // Get only the photos in the currently active tab
+        const activeTab = document.querySelector(".galleryContent.active");
+        activeTabPhotos = Array.from(activeTab.querySelectorAll("img"));
+        currentImgIndex = activeTabPhotos.indexOf(img);
+        
+        openLightbox(activeTabPhotos[currentImgIndex].src);
+      };
+    });
+  }
+
+  function openLightbox(src) {
+    lightbox.style.display = "flex";
+    lightboxImg.src = src;
+    document.body.style.overflow = "hidden"; // Stop page from scrolling
+  }
+
+  function closeLightbox() {
+    lightbox.style.display = "none";
+    document.body.style.overflow = "auto"; // Allow page to scroll again
+    lightboxImg.src = "";
+  }
+
+  function showNext() {
+    currentImgIndex = (currentImgIndex + 1) % activeTabPhotos.length;
+    lightboxImg.src = activeTabPhotos[currentImgIndex].src;
+  }
+
+  function showPrev() {
+    currentImgIndex = (currentImgIndex - 1 + activeTabPhotos.length) % activeTabPhotos.length;
+    lightboxImg.src = activeTabPhotos[currentImgIndex].src;
+  }
+
+  // Close when clicking X
+  closeBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    closeLightbox();
+  });
+
+  // Close when clicking outside the image
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  // Keyboard controls (Escape, Arrows)
+  document.addEventListener("keydown", (e) => {
+    if (lightbox.style.display === "flex") {
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowRight") showNext();
+      if (e.key === "ArrowLeft") showPrev();
+    }
+  });
+
+  // Initial setup of listeners
+  updatePhotoListeners();
+  
+  // Re-run listeners whenever a tab is clicked
+  tabBtns.forEach(btn => btn.addEventListener("click", updatePhotoListeners));
+});
+</script>
